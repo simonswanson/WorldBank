@@ -2,10 +2,6 @@
 ### SECTION 1 - Data Prep and Exploration
 ##############################################
 
-#Set WD
-
-setwd("C:/Users/Simon Swanson/Desktop/Simon/Deakin/MIS772 Predictive Analytics/Rfiles")
-
 # Import Data - Note comment added to each line to include Measure Name
 
 airpoll <- read.csv(file="a1data/airpoll.csv", skip=4,header=TRUE) # PM2.5 air pollution, mean annual exposure
